@@ -1,6 +1,6 @@
 # 80k-SHA256-Powershell-check
 Utilizing 80k+ of SHA256 identifiers, Checks a host machine against it for malware
-First, you will need to obtain a database of known malware hashes. You can find several free databases online, such as the VirusTotal database or the National Software Reference Library (NSRL) database.
+First, you will need to obtain a database of known malware hashes. You can find several free databases online, such as the VirusTotal database or the National Software Reference Library (NSRL) database. (I pulled mine from MalwareBazar, VirusTotal, and a MDR that will remain unlisted)
 
 Next, you will need to download the malware hash database and import it into a PowerShell script. You can do this by downloading the database as a CSV file and using the Import-Csv cmdlet to import it into a PowerShell object.
 
